@@ -275,7 +275,7 @@ body{
 
 
 
-@media only screen and (max-width: 650px){
+@media only screen and (max-width: 600px){
 
 body{
   background-position: center;
@@ -309,7 +309,7 @@ body{
 
 
 .proj-container{
-  margin-left: 525px;
+  margin-left: 500px;
   
 }
 
