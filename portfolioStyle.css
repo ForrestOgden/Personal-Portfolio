@@ -303,7 +303,7 @@ body{
 .sub-text{
   font-size: 35px;
   width: 500px;
-  margin-left: -85px;
+  margin-left: -80px;
   margin-top: 50px;
 }
 
@@ -329,7 +329,7 @@ body{
   border-radius: 50%;
   box-shadow: 2px 4px 15px black;
   transform: scale(60%, 60%);
-  margin-left: 12px;
+  margin-left: 16px;
 }
 
 
