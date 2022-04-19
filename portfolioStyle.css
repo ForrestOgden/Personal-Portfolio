@@ -296,7 +296,7 @@ body{
   margin-left: 500px;
   width: 100vw;
   margin-top: -200px;
-  
+  margin-right: 10px;
 }
 
 
@@ -325,7 +325,7 @@ body{
 
 .selfie{
   margin-top: 10px;
-  margin-bottom: 25px;
+  margin-bottom: 50px;
   border-radius: 50%;
   box-shadow: 2px 4px 15px black;
   transform: scale(60%, 60%);
