@@ -329,6 +329,7 @@ body{
   border-radius: 50%;
   box-shadow: 2px 4px 15px black;
   transform: scale(60%, 60%);
+  margin-left: 12px;
 }
 
 
