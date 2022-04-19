@@ -79,7 +79,7 @@ body{
   box-shadow: 2px 4px 15px hsl(0, 20%, 10%, 90%);
 }
 
-.proj1-img:active{
+.proj1-img:hover{
   transform:scale(2);
 }
 
@@ -106,7 +106,7 @@ body{
   box-shadow: 2px 4px 15px hsl(0, 20%, 10%, 90%);
 }
 
-.proj2-img:active{
+.proj2-img:hover{
   transform:scale(2);
 }
 
@@ -153,7 +153,7 @@ body{
   box-shadow: 2px 4px 15px hsl(0, 20%, 10%, 90%);
 }
 
-.proj3-img:active{
+.proj3-img:hover{
   transform:scale(2);
 }
 
