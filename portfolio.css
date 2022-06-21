@@ -1,0 +1,430 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  min-height: 100vh;
+  min-width: 100vw;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-image: url('https://images.wallpaperscraft.com/image/single/stars_milky_way_starry_sky_119836_3840x2160.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+.flex-container{
+  min-height: 100%;
+  max-width: 90%;
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,0,0,0.1940126392353817) 0%, rgba(37,9,121,0.37888658881521353) 21%, rgba(0,212,255,0.7570378493194152) 49%, rgba(37,9,121,0.3956933115042892) 80%, rgba(0,0,0,0.1716036756499475) 100%);
+
+  border-radius: 15px;
+
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  gap: 25px;
+  
+}
+
+
+.self-pic-container{
+  min-height: 50%;
+  min-width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  
+}
+
+
+
+.selfie{
+  width: 45%;
+  height: 45%;
+  border-radius: 50%;
+  box-shadow: 4px 3px 10px hsl(0, 15%, 15%, 0.75);
+  flex: 1;
+  animation: fadeIn 2s linear 1 forwards;
+}
+
+.info-box{
+  background: hsl(154, 83%, 45%, 0.9);
+  min-width: 65%;
+  min-height: 65%;
+  border-radius: 30px;
+  text-align: center;
+  clip-path: circle(25px at 25px 25px);
+  transition: clip-path 1.75s, box-shadow 3s, text-shadow 3s;
+  padding: 20px; 
+ 
+  animation: fill 2s linear 1 forwards;
+
+  text-shadow: 5px 3px 5px hsl(154, 83%, 20%);
+
+  box-shadow: 5px 3px 5px hsl(154, 83%, 20%);
+  
+  
+}
+
+
+
+
+
+.skill-title{
+  color: white;
+  font-size: 35px;
+}
+
+.skill-name{
+  color: white;
+  font-size: 22px;
+}
+
+.details{
+  color: white;
+  font-size: 22px;
+}
+
+.proj-container{
+  max-width: 100%;
+  min-height: 600px;
+
+
+  border-radius: 30px;
+
+  animation: fill 3s linear 1 forwards;
+  clip-path: circle(25px at 25px 25px);
+  
+  color: white;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  gap: 25px;
+  padding: 25px;
+}
+
+.proj{
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  
+  min-height: 100%;
+  min-width: 100%;
+}
+
+.proj-1{
+  text-align: center;
+  gap: 15px;
+
+  background: linear-gradient(90deg, rgba(210,205,177,1) 5%, rgba(215,213,182,0.7794468129048494) 32%, rgba(255,255,255,0.8438725832129726) 100%);
+  padding: 25px;
+  border-radius: 30px;
+  border: 5px solid white;
+  box-shadow:5px 5px 8px hsl(0, 15%, 15%);
+}
+
+.poke-heading{
+  font-size: 40px;
+  text-shadow:5px 3px 5px hsl(0, 10%, 10%);
+}
+
+.poke-img{
+  width: 50%;
+  border-radius: 15px;
+  box-shadow:5px 5px 5px hsl(0, 15%, 15%);
+}
+
+.poke-img:hover{
+  cursor: pointer;
+  filter: brightness(1.10);
+}
+
+.poke-desc{
+  font-size: 20px;
+  color: black;
+}
+
+
+.proj-2{
+  text-align: center;
+
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,0,0,0.1940126392353817) 0%, rgba(138,104,238,0.7234244039412641) 21%, rgba(176,150,255,1) 53%, rgba(37,9,121,0.3956933115042892) 80%, rgba(0,0,0,0.1716036756499475) 100%);
+  padding: 25px;
+  border-radius: 30px;
+  border: 5px solid white;
+  
+  gap: 15px;
+  box-shadow:5px 5px 8px hsl(0, 15%, 15%);
+}
+
+.got-heading{
+  font-size: 40px;
+  text-shadow:5px 3px 5px hsl(0, 10%, 10%);
+}
+
+.got-img{
+  width: 50%;
+  border-radius: 15px;
+  box-shadow:5px 5px 5px hsl(0, 15%, 15%);
+}
+
+.got-img:hover{
+  cursor: pointer;
+  filter: brightness(1.10);
+}
+
+.got-desc{
+  font-size: 20px;
+  color: white;
+}
+
+.proj-3{
+  text-align: center;
+
+  background: linear-gradient(90deg, rgba(205,205,205,0.692612079011292) 13%, rgba(2,255,239,0.569362779291404) 46%, rgba(139,89,119,0.5021358885351015) 100%);
+
+  padding: 25px;
+  border-radius: 30px;
+  border: 5px solid hsl(190, 90%, 30%, 1);
+  min-width: 30%;
+  max-width: 45%;
+
+  gap: 15px;
+  border: 5px solid white;
+  box-shadow:5px 5px 8px hsl(0, 15%, 15%);
+}
+
+.bank-heading{
+  font-size: 40px;
+  text-shadow:5px 3px 5px hsl(0, 10%, 10%);
+  color: white;
+}
+
+.bank-img{
+  width: 50%;
+  border-radius: 15px;
+  box-shadow:5px 5px 5px hsl(0, 15%, 15%);
+}
+
+.bank-img:hover{
+  cursor: pointer;
+  filter: contrast(1.10);
+}
+
+.bank-desc{
+  font-size: 20px;
+  color: white;
+}
+
+
+.proj-4{
+  text-align: center;
+
+  background: linear-gradient(90deg, rgba(35,56,20,0.5497549361541492) 5%, rgba(137,136,226,0.6898109585631127) 47%, rgba(2,255,239,0.569362779291404) 100%);
+
+
+
+  padding: 25px;
+  border-radius: 30px;
+  border: 5px solid hsl(190, 90%, 30%, 1);
+  min-width: 30%;
+  max-width: 45%;
+  
+  gap: 15px;
+
+  min-height: 100%;
+  border: 5px solid white;
+  box-shadow:5px 5px 8px hsl(0, 15%, 15%);
+  
+}
+
+
+.travel-heading{
+  font-size: 40px;
+  text-shadow:5px 3px 5px hsl(0, 10%, 10%);
+  color: white;
+}
+
+.travel-img{
+  width: 50%;
+  border-radius: 15px;
+  box-shadow:5px 5px 5px hsl(0, 15%, 15%);
+}
+
+.travel-img:hover{
+  cursor: pointer;
+  filter: contrast(1.10);
+}
+
+.travel-desc{
+  font-size: 20px;
+  color: white;
+}
+
+
+.projects-3-4{
+  min-width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+
+
+
+
+@keyframes fill{
+
+0%{clip-path: circle(25px at 25px 25px);}
+
+100%{clip-path: circle(2000px at 0 0);}
+
+}
+
+@keyframes fadeIn{
+
+0%{opacity: 0;}
+
+100%{opacity: 1;}
+
+}
+
+
+
+
+/*MEDIA QUERY ---------------------------------------------------------------------------*/
+
+@media (max-width: 725px){
+
+
+.projects-3-4{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: fit-content;
+  min-width: 100%;
+  gap: 20px;
+}
+
+
+
+.proj-3{
+  min-width: 35%;
+  max-width: 100%;
+}
+
+.bank-heading{
+  font-size: 30px;
+  text-shadow:5px 3px 5px hsl(0, 10%, 10%);
+  color: white;
+}
+
+.bank-img{
+  width: 65%;
+  border-radius: 15px;
+  box-shadow:5px 5px 5px hsl(0, 15%, 15%);
+}
+
+
+.bank-desc{
+  font-size: 20px;
+  color: white;
+}
+
+.proj-4{
+  min-width: 35%;
+  max-width: 100%;
+}
+
+.travel-heading{
+  font-size: 30px;
+  text-shadow:5px 3px 5px hsl(0, 10%, 10%);
+  color: white;
+}
+
+.travel-img{
+  width: 65%;
+  border-radius: 15px;
+  box-shadow:5px 5px 5px hsl(0, 15%, 15%);
+}
+
+
+.travel-desc{
+  font-size: 20px;
+  color: white;
+}
+
+.poke-heading{
+  font-size: 30px;
+  text-shadow:5px 3px 5px hsl(0, 10%, 10%);
+  color: white;
+}
+
+.poke-img{
+  width: 65%;
+  border-radius: 15px;
+  box-shadow:5px 5px 5px hsl(0, 15%, 15%);
+}
+
+
+.poke-desc{
+  font-size: 20px;
+  color: black;
+}
+
+.got-heading{
+  font-size: 30px;
+  text-shadow:5px 3px 5px hsl(0, 10%, 10%);
+  color: white;
+}
+
+.got-img{
+  width: 65%;
+  height: 100%;
+  border-radius: 15px;
+  box-shadow:5px 5px 5px hsl(0, 15%, 15%);
+}
+
+
+.got-desc{
+  font-size: 20px;
+}
+
+.proj{
+  gap: 25px;
+}
+
+
+
+
+@keyframes fill{
+
+0%{clip-path: circle(25px at 25px 25px);}
+
+100%{clip-path: circle(3000px at 0 0);}
+
+}
+
+
+
+}
