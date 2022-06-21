@@ -70,7 +70,7 @@ body{
   transition: clip-path 1.75s, box-shadow 3s, text-shadow 3s;
   padding: 20px; 
  
-  animation: fill 2s linear 1 forwards;
+  animation: fill 3.5s linear 1 forwards;
 
   text-shadow: 5px 3px 5px hsl(154, 83%, 20%);
 
@@ -105,7 +105,7 @@ body{
 
   border-radius: 30px;
 
-  animation: fill 3s linear 1 forwards;
+  animation: fill 3.5s linear 1 forwards;
   clip-path: circle(25px at 25px 25px);
   
   color: white;
